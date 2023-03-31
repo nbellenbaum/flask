@@ -65,3 +65,4 @@ jobs:
           # Only push image on merge to main
           push: ${{ github.ref_name == github.event.repository.default_branch }}
           tags: "ghcr.io/${{ env.REPO_LOWER_CASE }}:${{ env.SHA_SHORT }}"
+#comment
